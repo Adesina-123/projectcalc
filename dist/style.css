@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+* {
+    font-family: 'Lexend Mega', sans-serif;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: rgb(97, 97, 172);
+    text-align: center;
+    padding: 1rem;
+    color: white;
+    width: 100%;
+
+}
+/* #header-center {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+} */
+#calculator, #calculator-two {
+    border: 1px solid rgb(143, 98, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2px auto;
+    width: 600px;
+    max-width: 90%;
+    height: 160px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+#user-input {
+    width: 150px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    border: 1px solid rgb(105, 105, 204);
+    outline: none;
+}
+div#button {
+margin-top: 10px;
+display: flex;
+justify-content: center;
+gap: 7px;
+}
+button {
+  padding: 20px 25px;
+  font-size: 20px;
+  background-color: rgb(105, 105, 204);
+  outline: none;
+  color: cornsilk;
+  border: none;
+  margin-bottom: 7px;
+  
+}
+button:hover {
+    background-color: rgb(26, 26, 161);
+}
+#central{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(105, 105, 204);
+}
